@@ -1,1 +1,5 @@
 # task-processing
+
+- The behavior of node and task processing.
+- Handle task processing when the task was blocked by another task.
+- Handle in the concept of async/await, promise.
