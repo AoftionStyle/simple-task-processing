@@ -1,0 +1,18 @@
+{
+  "name": "task-processing",
+  "version": "1.0.0",
+  "description": "poc task-processing",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/app.js",
+    "prestart": "npm run build",
+    "dev": "nodemon app.ts"
+  },
+  "keywords": [],
+  "author": "aoftionstyle",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
